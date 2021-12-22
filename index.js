@@ -11,8 +11,12 @@
 
 // Part 1 answer 👇🏻 ...
 
-
-
+let fullName ="Ahmed Abdulkareem Dashti"
+let yearOfBirth ="1984"
+let hobby ="Technology, Car Modification, Martial Arts"
+let funFact ="Angry Man :P"
+const image ="https://media-exp1.licdn.com/dms/image/C4E03AQEfgVZhG-_Wpg/profile-displayphoto-shrink_100_100/0/1517616451459?e=1645660800&v=beta&t=DfLHa2K0ycqpBu8xqDq36xXRsJ7Bg-A3ASXcOQPiYm4"
+let currentyear ="2021"
 
 
 
@@ -33,6 +37,9 @@
 // const yearOfBirthString =
 // const hobbyString =
 
+const fullNameString =`My name is ${fullName}`
+const yearOfBirthString =`I am ${currentyear - yearOfBirth}`
+const hobbyString =`My hobby is ${hobby}`
 
 
 
@@ -45,14 +52,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+stars+=1
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+stars-=1
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+stars+=2
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+stars-=2
 }
